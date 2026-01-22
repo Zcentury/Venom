@@ -211,7 +211,7 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 ---
 
-## 🧸 交流群
+## 🧸 公众号
 
 ![qrcode](images/qrcode.jpg)
 
@@ -220,7 +220,6 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 ## 📈 Star 记录
 
 [![Stargazers over time](https://starchart.cc/Zcentury/Venom.svg?variant=adaptive)](https://starchart.cc/Zcentury/Venom)
-
 
 
 
