@@ -139,7 +139,7 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 **Wxapkg 逆向**：拖入小程序包即可自动解包。系统会自动解析目录结构，提取 `app-service.js` 等核心源码 。
 
-自动识别并提取小程序中调用的所有 API 接口（URL）等常用信息
+自动识别并提取小程序中调用的所有 API 接口（URL）等常用信息，帮助小程序开发者对小程序进行排查和风险收敛。
 
 ![image-20251203212738231](images/image-20251203212738231.png)
 
