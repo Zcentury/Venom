@@ -5,7 +5,7 @@
 
 <p align="center">
   <a href="https://github.com/Zcentury/Venom/releases">
-    <img src="https://img.shields.io/github/release/Zcentury/Venom/all.svg">
+    <img src="https://img.shields.io/github/v/release/Zcentury/Venom">
   </a>
 </p>
 
