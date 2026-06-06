@@ -3,13 +3,13 @@
 </h3>
 
 
-<p align="center">
+<div align="center">
  
   [![Downloads total](https://img.shields.io/github/downloads/Zcentury/Venom/total?label=Downloads)](https://github.com/Zcentury/Venom/releases)
   [![Repo tags](https://img.shields.io/github/v/release/Zcentury/Venom?label=Release)](https://github.com/Zcentury/Venom/releases/latest)
   [![Downloads latest total](https://img.shields.io/github/downloads/Zcentury/Venom/latest/total?label=Downloads%40latest)](https://github.com/Zcentury/Venom/releases/latest)
 
-</p>
+</div>
 
 
 <h3 align="center">
