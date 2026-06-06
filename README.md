@@ -5,7 +5,13 @@
 
 <p align="center">
   <a href="https://github.com/Zcentury/Venom/releases">
-    <img src="https://img.shields.io/github/v/release/Zcentury/Venom">
+    <img src="https://img.shields.io/github/downloads/Zcentury/Venom/total?label=Downloads">
+  </a>
+  <a href="https://github.com/Zcentury/Venom/releases/latest">
+    <img src="https://img.shields.io/github/v/release/Zcentury/Venom?label=Release">
+  </a>
+  <a href="https://github.com/Zcentury/Venom/releases/latest">
+    <img src="https://img.shields.io/github/downloads/Zcentury/Venom/latest/total?label=Downloads%40latest">
   </a>
 </p>
 
